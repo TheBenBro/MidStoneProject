@@ -2,6 +2,7 @@
 #define SCENE0_H
 #include "Scene.h"
 #include "Vector.h"
+#include <glew.h>
 using namespace MATH;
 
 /// Forward declarations 
@@ -23,6 +24,8 @@ private:
 	Texture *texturePtr;
 	float object1;
 	float object2;
+
+	
 public:
 	explicit Scene0();
 	virtual ~Scene0();

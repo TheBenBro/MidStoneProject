@@ -59,7 +59,7 @@ void Scene0::HandleEvents(const SDL_Event &sdlEvent) {
 }
 
 void Scene0::Update(const float deltaTime) {
-	object1 += 0.1f;
+	object1 += 0.0f;
 	object2 += 0.0f;
 	demoObject->setModelMatrix(MMath::translate(object1, 0.0f, 0.0f));
 	object->setModelMatrix(MMath::translate(5.0f, 0.0f, 0.0f));
