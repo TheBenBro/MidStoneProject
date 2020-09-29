@@ -2,7 +2,7 @@
 #define SCENE0_H
 #include "Scene.h"
 #include "Vector.h"
-#include <glew.h>
+#include "Input.h"
 using namespace MATH;
 
 /// Forward declarations 

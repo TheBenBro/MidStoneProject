@@ -7,7 +7,7 @@ class Input
 {
 public:
 	//glfwSetKeyCallback(window,key_callback);
-	void key_callback(int key, int scancode, int action, int mods, float x);
+	static void key_callback(int key, int scancode, int action, int mods, float x);
 	Input();
 	~Input();
 }; 
